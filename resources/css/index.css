@@ -1,0 +1,97 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.bold {
+    font-weight: 900;
+}
+
+.white {
+    color: white;
+}
+
+.blue {
+    color: blue;
+}
+
+.container {
+    max-width: 1600px;
+    margin: 0 auto;
+    background-color: #fbfbf2;
+    padding-bottom: 20px;
+    box-shadow: 2px 0px 10px 1px gray;
+    position: relative;
+}
+
+#main-header {
+    margin-top: 20px;
+}
+
+#main-header h1 {
+    font-size: 6.25rem;
+    color: khaki;
+    text-align: center;
+    vertical-align: middle;
+    background-image: url(../images/pattern.jpeg);
+}
+
+main {
+    padding-bottom: 80px;
+}
+
+.sections {
+    margin: 80px 0;
+}
+
+.sections .inner-section {
+    padding: 0 20px;
+}
+
+.sections .section-heading {
+   margin-bottom: 30px;
+   padding-left: 10px;
+}
+
+.sections .section-heading h2 {
+    font-size: 32px;
+}
+
+.sections img.section-image {
+    margin-bottom: 30px;
+}
+
+.sections h3.section-subheading {
+    margin-bottom: 20px;
+}
+
+#brushes header {
+    background-color: mediumspringgreen;
+}
+
+#frames header {
+    background-color: lightcoral;
+}
+
+#paint header {
+    background-color: skyblue;
+}
+
+footer {
+    padding: 30px;
+    background-color: lightcoral;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 60px;
+    padding-bottom: 40px;
+}
+
+footer p {
+    text-align: center;
+}
+
+@media only screen and (max-width: 424px) {
+    header#main-header h1 {
+        font-size: 3.25rem;
+    }
+}
